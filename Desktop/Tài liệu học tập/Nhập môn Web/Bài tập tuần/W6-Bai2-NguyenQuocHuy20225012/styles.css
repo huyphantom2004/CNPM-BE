@@ -1,0 +1,203 @@
+.container { 
+
+  width: 95%; 
+
+  margin: auto; 
+
+} 
+
+table { 
+
+  border-collapse: collapse; 
+
+}	 
+
+table, th, td { 
+
+  border: 1px solid #ddd; 
+
+} 
+
+.modal { 
+
+  display: none; 
+
+  position: fixed; 
+
+  z-index: 1; 
+
+  left: 0; 
+
+  top: 0; 
+
+  width: 100%; 
+
+  height: 100%; 
+
+  background-color: rgba(0, 0, 0, 0.5); 
+
+} 
+
+form#studentForm button[type="submit"] { 
+
+  display: none; 
+
+}  
+/* Reset mặc định cho các trình duyệt */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+/* Style cho body */
+body {
+ font-family: Arial, sans-serif;
+ background-color: #f4f4f4;
+ color: #333;
+}
+
+/* Style cho container */
+.container {
+ max-width: 1200px;
+ margin: 20px auto;
+ padding: 20px;
+ background-color: #fff;
+ border-radius: 8px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style cho heading */
+h1 {
+ text-align: center;
+ margin-bottom: 20px;
+ color: #4a4a4a;
+}
+
+/* Style cho button */
+button {
+ padding: 10px 15px;
+ background-color: #e80000;
+ color: #fff;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ margin-bottom: 20px;
+}
+
+button:hover {
+ background-color: #85020265;
+}
+
+/* Style cho table */
+table {
+ width: 100%;
+ border-collapse: collapse;
+ margin-bottom: 20px;
+}
+
+th, td {
+ padding: 12px;
+ text-align: left;
+ border-bottom: 1px solid #ddd;
+}
+
+th {
+ background-color: #f2f2f2;
+ color: #333;
+}
+
+tr:hover {
+ background-color: #f5f5f5;
+}
+
+/* Style cho modal */
+.modal {
+ display: none;
+ position: fixed;
+ z-index: 1;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ overflow: auto;
+ background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+ background-color: #fefefe;
+ margin: 15% auto;
+ padding: 20px;
+ border: 1px solid #888;
+ width: 80%;
+ max-width: 500px;
+ border-radius: 8px;
+}
+
+.close {
+ color: #aaa;
+ float: right;
+ font-size: 28px;
+ font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+ color: black;
+ text-decoration: none;
+ cursor: pointer;
+}
+
+/* Style cho form */
+form {
+ display: flex;
+ flex-direction: column;
+}
+
+label {
+ margin-bottom: 5px;
+ color: #333;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="date"] {
+ padding: 10px;
+ margin-bottom: 15px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ font-size: 16px;
+}
+
+button[type="submit"] {
+ padding: 10px;
+ background-color: #28a745;
+ color: #fff;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+button[type="submit"]:hover {
+ background-color: #218838;
+}
+
+/* Style cho pagination */
+.pagination-controls {
+ text-align: center;
+ margin-top: 20px;
+}
+
+.pagination-controls button {
+ padding: 10px 15px;
+ margin: 0 5px;
+ background-color: #007bff;
+ color: #fff;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+.pagination-controls button:hover {
+ background-color: #0056b3;
+}
